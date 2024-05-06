@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = process.env.port || 3001
+const port = process.env.port
 const dbConfig = require('./config/dbConfig')
 const cors = require("cors");
 app.use(cors())
